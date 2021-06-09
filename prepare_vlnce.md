@@ -1,5 +1,5 @@
 ## VLNCE preparation (https://github.com/jacobkrantz/VLN-CE)
-### Issue: import magnum inpython shows "libOpenGL.so.0 is not found"
+### Issue: import magnum in python shows "libOpenGL.so.0 is not found"
 Solution:
 
 1. Before creating the conda env for vlnce, do the steps here first.
