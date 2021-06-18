@@ -25,3 +25,9 @@ source .bashrc
 ```
 
 5. Follow the installation instruction of VLN-CE
+
+### Issue: "Can not get default EGL display: EGL_BAD_PARAMETER"
+```bash
+# replace the libnvidia-gl with the version that matches your driver version
+./pget libnvidia-gl-418=418.87.00-0ubuntu1
+```
