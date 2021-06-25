@@ -20,7 +20,7 @@ source .bashrc
 You will find the installed libOpenGL.so.0 in ~.apt/usr/lib/x86_64-linux-gnu
 
 ```bash
-./pget libOpenGL0
+./pget libopengl0
 source .bashrc
 ```
 
