@@ -37,6 +37,7 @@ sudo apt-get install libopengl0
 sudo apt-get install libnvidia-gl-418=418.87.00-0ubuntu1
 conda create -n vlnce python3.6
 conda activate vlnce
+conda install -c aihabitat -c conda-forge habitat-sim headless
 git clone --branch stable https://github.com/facebookresearch/habitat-lab.git
 cd habitat-lab
 pip install -r requirements.txt
